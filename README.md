@@ -18,7 +18,7 @@ Chatly is a modern Android chat app using:
 ## 🖼️ Screenshots
 
 
-                                                                   ![Chatly Architecture Diagram](https://github.com/user-attachments/assets/95ff21cf-3846-4149-8ab0-3af2aff5d68b)
+![Chatly Architecture Diagram](https://github.com/user-attachments/assets/95ff21cf-3846-4149-8ab0-3af2aff5d68b)
 
 ---
 ## ✨ What You'll Learn
