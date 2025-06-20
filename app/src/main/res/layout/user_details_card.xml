@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="18dp"
+    app:cardElevation="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivUserDetailPhoto"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/ic_profile_placeholder"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/AvatarCircle"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/tvUserDetailName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Display Name"
+            android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvUserDetailEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="user@email.com"
+            android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvUserDetailMobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+1234567890"
+            android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvUserDetailDOB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01 Jan 2000"
+            android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvUserDetailGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textAppearance="@style/TextAppearance.Material3.BodyLarge"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
